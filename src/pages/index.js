@@ -10,7 +10,7 @@ export default function Home({ products }) {
           <article>
             <h2>{product.productdisplayname}</h2>
             <p>{product.price}</p>
-            <Anchor href={"/products/" + product.id}>Read more</Anchor>
+            <Anchor href={"/products/" + product.category + product.id}>Read more</Anchor>
           </article>
         ))}
       </section>
